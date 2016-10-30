@@ -226,5 +226,10 @@ xyplot(steps ~ interval/100 | factor(wDay),
 There is a clear difference between weekend and weekday patterns.  The data shows that the subject waktes up earlier
 on the week day with morning spike, than the weekend. However there is an increase in activity on the weekends, compared to the weekday.
 
+```{r}
 
+```
+library("knitr")
+library("markdown")
+markdownToHTML('PA1_template.md', 'PA1_template.html') # creates html file
 
